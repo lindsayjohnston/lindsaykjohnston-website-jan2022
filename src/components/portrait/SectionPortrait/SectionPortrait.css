@@ -23,8 +23,8 @@
 
 .sectionPortrait > .sectionHeadingDiv > .anchorLinkDiv {
     position: absolute;
-    height: 7vh;
-    top: -7vh;
+    height: 70px;
+    top: -70px;
 }
 
 .sectionPortrait > .content {
