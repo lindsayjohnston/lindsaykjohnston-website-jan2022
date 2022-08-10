@@ -9,7 +9,7 @@ import Gallery from './components/gallery/gallery';
 import Footer from './components/footer/footer';
 
 let screenOrientation= null;
-if((window.innerHeight / window.innerWidth) < .87){
+if(window.innerWidth > 786){
   screenOrientation= "landscape";
 } else {
   screenOrientation= "portrait";
@@ -77,7 +77,7 @@ class App extends React.Component {
         content1: 
           <div>
             <h2>Lindsay K. Johnston</h2>
-            <h3>Creator & Entrepreneur</h3>
+            <h3>Web Developer & Creator</h3>
           </div>,
         content2:
           <div>
@@ -111,7 +111,7 @@ class App extends React.Component {
   checkScreenOrientation = () => {
     let newOrientation= null;
 
-    if((window.innerHeight/ window.innerWidth) < .87){
+    if(window.innerWidth > 786){
       newOrientation= "landscape";
     } else {
       newOrientation= "portrait";

@@ -11,9 +11,9 @@
     align-items: center;
 }
 
-.menuLandscape > .title{
-   margin-left:2vw;
-   /* background-color: chartreuse; */
+.menuLandscape > .title h1{
+   padding: 10px;
+   font-size: 25px;
 }
 
 .menuLandscape a:hover{
@@ -28,6 +28,7 @@
 }
 
 .menuLandscape > .sectionLinks > a {
-    padding: 2vw;
-    font-size: 25px;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
 }

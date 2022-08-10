@@ -34,6 +34,10 @@
     box-shadow: 0 3px 10px var(--dark-color);
 }
 
+.flipCardBack h3{
+    padding: 10px;
+}
+
 .flipCardFront{
     /* background-color: var(--light-color);
     color:black; */
