@@ -53,10 +53,10 @@ class App extends React.Component {
                 <a href="https://www.micahclay.us/" target="_blank" rel="noreferrer">
                   Micah Clay - Musician Website</a>
               </li>
-              <li>
+              {/* <li>
                 <a href="https://github-map-real.herokuapp.com/" target="_blank" rel="noreferrer">
                  GitHub User Map - API Study</a>
-              </li>
+              </li> */}
               <li>
                 <a href="https://master.d2sxml8azj8dyl.amplifyapp.com/" target="_blank" rel="noreferrer">
                  Points Calculator - CSV Upload Study</a>
